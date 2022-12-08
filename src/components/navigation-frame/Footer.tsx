@@ -12,7 +12,7 @@ const ITEMS = [
 
 const Footer = () => {
   return (
-    <footer className="p-10 footer footer-center bg-gradient-to-r from-blue-300 to-blue-700 text-primary-content">
+    <footer className="p-10 footer footer-center bg-neutral-focus text-primary-content">
       <div>
         <img src={fida} className="w-10" />
         <p className="font-bold">
