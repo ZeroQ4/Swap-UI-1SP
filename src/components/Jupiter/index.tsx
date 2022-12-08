@@ -306,7 +306,7 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
 
   return (
     <>
-      <div className="bg-base-200 sm:w-[450px] w-[95%] rounded-[15px] px-5 pb-10 pt-5 mb-5 sm:mb-0 mt-3 sm:mt-0">
+      <div className="bg-base-300 sm:w-[450px] w-[95%] rounded-[15px] px-5 pb-10 pt-5 mb-5 sm:mb-0 mt-3 sm:mt-0">
         <div className="relative">
           <Slippage slippage={slippage} setSlippage={setSlippage} />
           <button
@@ -328,7 +328,7 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
               setInput={setInputAmount}
             />
           </div>
-          <div className="relative w-full p-10 my-5 rounded-lg bg-neutral">
+          <div className="relative w-full p-10 my-5 rounded-lg bg-neutral-focus">
             <input
               value={inputAmout}
               type="number"
@@ -354,7 +354,7 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
             <span className="ml-3 font-bold text-white">You receive</span>
             <Balance tokenAccounts={tokenAccounts} token={outputTokenInfo} />
           </div>
-          <div className="relative w-full p-10 my-5 rounded-lg bg-neutral">
+          <div className="relative w-full p-10 my-5 rounded-lg bg-neutral-focus">
             <div className="absolute text-xl font-bold text-right bg-transparent right-4 top-6 input">
               {outputAmount}
             </div>
@@ -425,8 +425,8 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
                 onClick={handleSwap}
                 disabled={swapping || !loaded || !hasRoute}
                 buttonClass="bg-black w-full p-2 uppercase font-bold h-[50px]"
-                fromColor="green-400"
-                toColor="blue-500"
+                fromColor="blue-300"
+                toColor="blue-700"
               >
                 {swapping ? (
                   <div className="flex flex-row justify-center">

@@ -45,8 +45,8 @@ export const Slippage = ({
                 key={`slippage-option-${e}`}
                 onClick={() => setInput(e)}
                 buttonClass="bg-black p-2 uppercase font-bold h-[50px] w-full"
-                fromColor={input === e ? "green-400" : "none"}
-                toColor="blue-500"
+                fromColor={input === e ? "blue-300" : "none"}
+                toColor="blue-700"
                 containerClass="w-1/3 mx-2"
               >
                 {e / 10}%
@@ -58,7 +58,7 @@ export const Slippage = ({
           <div
             className={clsx(
               "relative",
-              custom && "bg-gradient-to-r from-green-400 to-blue-500",
+              custom && "bg-gradient-to-r from-blue-300 to-blue-700",
               "p-[2px] rounded-[6px] h-[50px]"
             )}
           >
@@ -69,7 +69,7 @@ export const Slippage = ({
               type="number"
               max={100}
               min={0}
-              className="w-full h-full pr-10 text-lg font-bold text-right rounded-[5px] bg-neutral focus:outline-none"
+              className="w-full h-full pr-10 text-lg font-bold text-right rounded-[5px] bg-neutral-focus focus:outline-none"
             />
             <span className="absolute text-lg font-bold top-3 right-5">%</span>
           </div>
@@ -90,8 +90,8 @@ export const Slippage = ({
         disabled={!canSubmit}
         containerClass="mt-5"
         buttonClass="bg-black w-full p-2 uppercase font-bold h-[50px]"
-        fromColor="green-400"
-        toColor="blue-500"
+        fromColor="blue-300"
+        toColor="blue-700"
       >
         Save settings
       </ButtonBorderGradient>

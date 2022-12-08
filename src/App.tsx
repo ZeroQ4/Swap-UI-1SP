@@ -77,9 +77,9 @@ const App = () => {
     >
       <WalletProvider wallets={wallets} autoConnect>
         <JupiterApiProvider>
-          <div className="bg-neutral">
+          <div className="bg-neutral-focus">
             <TopBar setCustomRpc={setCustomRpc} />
-            <div className="flex flex-col items-center justify-center min-h-screen bg-neutral">
+            <div className="flex flex-col items-center justify-center min-h-screen bg-neutral-focus">
               <JupiterForm />
             </div>
             <Footer />

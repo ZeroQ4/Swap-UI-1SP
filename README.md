@@ -1,8 +1,6 @@
 
 
 ```
-git clone https://github.com/Bonfida/swap-ui
-cd swap-ui
 yarn
 yarn dev
 ```

@@ -19,8 +19,8 @@ interface IRpc {
 }
 
 const RPCS: IRpc[] = [
-  { name: "Bonfida", url: RPC_URL as string },
-  { name: "Serum", url: "https://solana-api.projectserum.com" },
+  { name: "Onespase", url: RPC_URL as string },
+  //{ name: "Serum", url: "https://solana-api.projectserum.com" },
   { name: "Custom", url: "" },
 ];
 
@@ -77,7 +77,7 @@ export const RpcSettings = ({
         <div className="w-full top-16">
           <Listbox value={selected} onChange={handleOnChange}>
             <div className="relative mt-1">
-              <Listbox.Button className="relative w-full h-[60px] py-2 pl-3 pr-10 text-left bg-neutral rounded-lg shadow-md cursor-default focus:outline-none focus-visible:ring-2 focus-visible:ring-opacity-75 focus-visible:ring-white focus-visible:ring-offset-orange-300 focus-visible:ring-offset-2 focus-visible:border-indigo-500 sm:text-lg font-bold">
+              <Listbox.Button className="relative w-full h-[60px] py-2 pl-3 pr-10 text-left bg-neutral-focus rounded-lg shadow-md cursor-default focus:outline-none focus-visible:ring-2 focus-visible:ring-opacity-75 focus-visible:ring-white focus-visible:ring-offset-orange-300 focus-visible:ring-offset-2 focus-visible:border-indigo-500 sm:text-lg font-bold">
                 <span className="block truncate">{selected.name}</span>
                 <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                   <SelectorIcon
@@ -136,7 +136,7 @@ export const RpcSettings = ({
         <div className="mt-5">
           <div
             className={clsx(
-              custom && "bg-gradient-to-r from-green-400 to-blue-500",
+              custom && "bg-gradient-to-r from-blue-300 to-blue-700",
               "p-[2px] rounded-[6px] h-[50px]",
               "h-[60px]"
             )}
@@ -146,7 +146,7 @@ export const RpcSettings = ({
               onChange={(e) => setInput(e.target.value.trim())}
               placeholder={selected.url}
               type="text"
-              className="w-full h-full p-2 text-lg font-bold rounded-[5px] bg-neutral focus:outline-none"
+              className="w-full h-full p-2 text-lg font-bold rounded-[5px] bg-neutral-focus focus:outline-none"
             />
           </div>
         </div>
@@ -160,7 +160,7 @@ export const RpcSettings = ({
           )}
           {!loading && validUrl && (
             <>
-              <CheckCircleIcon className="text-green-400 h-[20px] mr-4" />
+              <CheckCircleIcon className="text-blue-300 h-[20px] mr-4" />
               <span className="font-bold">Valid RPC Node</span>
             </>
           )}
@@ -171,8 +171,8 @@ export const RpcSettings = ({
       <div className="mt-5">
         <ButtonBorderGradient
           buttonClass="bg-black w-full p-2 uppercase font-bold h-[50px]"
-          fromColor="green-400"
-          toColor="blue-500"
+          fromColor="blue-300"
+          toColor="blue-700"
           onClick={handleSave}
         >
           Save

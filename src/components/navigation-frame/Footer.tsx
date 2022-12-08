@@ -1,4 +1,4 @@
-import fida from "../../assets/fida.svg";
+import fida from "../../assets/one.svg";
 import Urls from "../../settings/urls";
 import { Link } from "../Link";
 
@@ -6,17 +6,17 @@ const ITEMS = [
   { name: "Twitter", url: Urls.twitter },
   { name: "Website", url: Urls.website },
   { name: "Github", url: Urls.github },
-  { name: "Old version", url: Urls.oldDex },
-  { name: "Jupiter", url: Urls.jupiter },
+  //{ name: "Old version", url: Urls.oldDex },
+  //{ name: "Jupiter", url: Urls.jupiter },
 ];
 
 const Footer = () => {
   return (
-    <footer className="p-10 footer footer-center bg-gradient-to-r from-green-400 to-blue-500 text-primary-content">
+    <footer className="p-10 footer footer-center bg-gradient-to-r from-blue-300 to-blue-700 text-primary-content">
       <div>
         <img src={fida} className="w-10" />
         <p className="font-bold">
-          Bonfida Foundation <br />
+          Onespace Tech <br />
         </p>
       </div>
       <div>

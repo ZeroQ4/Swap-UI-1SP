@@ -17,7 +17,7 @@ const TopBar = ({ setCustomRpc }: { setCustomRpc: (url: string) => void }) => {
 
   if (smallScreen) {
     return (
-      <div className="relative h-[40px] bg-neutral mb-8">
+      <div className="relative h-[40px] bg-neutral-focus mb-8">
         <Congested congested={!!congested} />
         <div
           className={clsx(
@@ -32,7 +32,7 @@ const TopBar = ({ setCustomRpc }: { setCustomRpc: (url: string) => void }) => {
   }
 
   return (
-    <div className="relative h-[40px] bg-neutral mb-10">
+    <div className="relative h-[40px] bg-neutral-focus mb-10">
       <Congested congested={!!congested} />
       <div
         className={clsx("absolute left-4", congested ? "top-[30px]" : "top-5")}
