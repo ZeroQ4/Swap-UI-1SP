@@ -3,9 +3,22 @@ import Urls from "../../settings/urls";
 import { Link } from "../Link";
 
 const ITEMS = [
-  { name: "Twitter", url: Urls.twitter },
   { name: "Website", url: Urls.website },
+  { name: "Twitter", url: Urls.twitter },
+  { name: "Discord", url: Urls.discord },
+  { name: "Telegram", url: Urls.telegram },
   { name: "Github", url: Urls.github },
+  { name: "NFT", url: Urls.nft },
+  { name: "NFT Staking", url: Urls.staking },
+  { name: "1SP Staking", url: Urls.staking2 },
+  { name: "Farms", url: Urls.farms },
+  { name: "Dex", url: Urls.dex },
+  { name: "Docs", url: Urls.docs },
+  
+  
+  
+  
+  
   //{ name: "Old version", url: Urls.oldDex },
   //{ name: "Jupiter", url: Urls.jupiter },
 ];
