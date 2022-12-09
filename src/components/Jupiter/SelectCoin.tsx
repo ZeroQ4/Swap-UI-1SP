@@ -175,7 +175,7 @@ export const SelectCoin = ({
 
       <div
         ref={containerRef}
-        className="h-full min-h-[200px] overflow-scroll overscroll-contain"
+        className="h-full min-h-[200px] overflow-scroll overscroll-contain webkit-scrollbar webkit-scrollbar-dark"
       >
         <div ref={wrapperRef}>
           {list.map((e) => (
