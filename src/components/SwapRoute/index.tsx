@@ -33,9 +33,9 @@ export const SwapRoute = ({
       )}
 
       <div className="flex flex-row items-center justify-between bg-neutral-focus rounded-[5px] p-3">
-        <div className="flex flex-col">
-          <span className="font-bold text-white">{formatRoute(route)}</span>
-          <span className="text-sm font-bold opacity-80">
+        <div className="text-left	flex flex-col">
+          <span className="text-sm font-bold text-white">{formatRoute(route)}</span>
+          <span className="text-sm font-normal opacity-80">
             {formatTokens(tokenMap, route)}
           </span>
         </div>

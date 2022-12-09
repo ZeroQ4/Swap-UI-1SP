@@ -28,7 +28,7 @@ const Footer = () => {
     <footer className="p-10 footer footer-center bg-neutral-focus text-primary-content">
       <div>
         <img src={fida} className="w-10" />
-        <p className="font-bold">
+        <p className="font-light">
           Onespace Tech <br />
         </p>
       </div>

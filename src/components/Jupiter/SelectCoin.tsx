@@ -161,7 +161,7 @@ export const SelectCoin = ({
         spellCheck={false}
       />
 
-      <div className="flex flex-row flex-wrap justify-start">
+      <div className="flex flex-row flex-wrap justify-between">
         {topList.map((e, idx) => (
           <TopCoin
             key={`top-coin-${idx}`}
