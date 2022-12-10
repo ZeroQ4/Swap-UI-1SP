@@ -20,7 +20,7 @@ interface IRpc {
 
 const RPCS: IRpc[] = [
   { name: "Onespase", url: RPC_URL as string },
-  //{ name: "Serum", url: "https://solana-api.projectserum.com" },
+  { name: "Chainstack", url: "https://nd-554-996-199.p2pify.com/00c616e13ddc7f0a4426f4cea638c6ea" },
   { name: "Custom", url: "" },
 ];
 
