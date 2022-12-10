@@ -36,7 +36,7 @@ import { useTokenAccounts } from "../../hooks";
 export const INPUT_MINT_ADDRESS =
   "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"; // USDC
 export const OUTPUT_MINT_ADDRESS =
-  "2zzC22UBgJGCYPdFyo7GDwz7YHq5SozJc1nnBqLU8oZb"; // 1SP
+  "So11111111111111111111111111111111111111112"; // SOL
 
 import { useJupiterApiContext } from "../../contexts";
 
