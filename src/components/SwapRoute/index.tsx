@@ -27,7 +27,7 @@ export const SwapRoute = ({
     >
       {/* Badge */}
       {isBestRoute && (
-        <div className="absolute right-0 top-[-11px] bg-blue-700 text-white text-sm font-bold px-2 py-[1px] rounded-[5px]">
+        <div className="absolute right-0 top-[-11px] bg-blue-700 text-white text-sm font-normal px-2 py-[1px] rounded-[5px]">
           Best price
         </div>
       )}
@@ -40,7 +40,7 @@ export const SwapRoute = ({
           </span>
         </div>
         {/* Output amount */}
-        <div className="text-xl font-bold">{amount}</div>
+        <div className="text-lg font-bold">{amount}</div>
       </div>
     </div>
   );
