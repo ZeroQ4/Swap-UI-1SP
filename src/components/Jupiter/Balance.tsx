@@ -20,7 +20,7 @@ export const Balance = ({
   return (
     <div className="flex flex-row items-center mr-1">
       <span className="mr-1 text-sm font-bold text-white">Balance: </span>
-      <span className="mr-1 text-sm font-light text-white opacity-40">
+      <span className="mr-1 text-sm font-normal text-white opacity-40">
         {" "}
         {_.round(balance, 9)}
       </span>
