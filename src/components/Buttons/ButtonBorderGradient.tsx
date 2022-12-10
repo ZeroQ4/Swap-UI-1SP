@@ -23,7 +23,7 @@ export const ButtonBorderGradient = ({
   return (
     <div
       className={clsx(
-        "rounded-[10px] bg-gradient-to-r p-[2px]",
+        "rounded-[10px] bg-gradient-to-r p-[0px]",
         `from-${fromColor}`,
         viaColor ? `via-${viaColor}` : undefined,
         `to-${toColor}`,

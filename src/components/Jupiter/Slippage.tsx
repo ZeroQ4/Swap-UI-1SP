@@ -59,7 +59,7 @@ export const Slippage = ({
             className={clsx(
               "relative",
               custom && "bg-gradient-to-r from-blue-300 to-blue-700",
-              "p-[2px] rounded-[6px] h-[50px]"
+              "p-[1px] rounded-[6px] h-[50px]"
             )}
           >
             <input

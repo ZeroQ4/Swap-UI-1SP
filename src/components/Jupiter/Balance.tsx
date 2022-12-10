@@ -22,20 +22,20 @@ export const Balance = ({
       <span className="mr-1 text-sm font-bold text-white">Balance: </span>
       <span className="mr-1 text-sm font-bold text-white opacity-40">
         {" "}
-        {_.round(balance, 2)}
+        {_.round(balance, 9)}
       </span>
 
       {setInput && !!balance && (
         <>
           <div
             onClick={() => setInput((balance / 2).toString())}
-            className="border-[2px] border-solid rounded-[20px] border-sky-500 w-[50px] text-center text-xs cursor-pointer uppercase font-bold mr-1"
+            className="border-[1px] border-solid rounded-[20px] border-sky-500 w-[50px] text-center text-xs cursor-pointer uppercase font-bold mr-1"
           >
             Half
           </div>
           <div
             onClick={() => setInput(balance.toString())}
-            className="border-[2px] border-solid rounded-[20px] border-sky-500 w-[50px] text-center text-xs cursor-pointer uppercase font-bold"
+            className="border-[1px] border-solid rounded-[20px] border-sky-500 w-[50px] text-center text-xs cursor-pointer uppercase font-bold"
           >
             Max
           </div>

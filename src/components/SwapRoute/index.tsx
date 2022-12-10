@@ -21,7 +21,7 @@ export const SwapRoute = ({
       className={clsx(
         "relative",
         selected && "bg-gradient-to-r from-blue-300 to-blue-700",
-        "p-[2px] rounded-[6px]",
+        "p-[1px] rounded-[6px]",
         "animate-gradient-x"
       )}
     >

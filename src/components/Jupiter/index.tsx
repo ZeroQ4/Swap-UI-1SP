@@ -354,9 +354,9 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
             <span className="ml-3 font-bold text-white">You receive</span>
             <Balance tokenAccounts={tokenAccounts} token={outputTokenInfo} />
           </div>
-          <div className="relative w-full p-10 my-5 rounded-lg bg-neutral-focus">
+          <div className="relative w-full p-10 my-5 rounded-lg bg-transparent">
             <div className="absolute text-xl font-bold text-right bg-transparent right-4 top-6 input">
-              {outputAmount}
+              {/* {outputAmount} */}
             </div>
             <div className="absolute left-4 top-4">
               <SelectCoin
