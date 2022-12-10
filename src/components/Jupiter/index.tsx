@@ -36,7 +36,7 @@ import { useTokenAccounts } from "../../hooks";
 export const INPUT_MINT_ADDRESS =
   "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"; // USDC
 export const OUTPUT_MINT_ADDRESS =
-  "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"; // USDT
+  "2zzC22UBgJGCYPdFyo7GDwz7YHq5SozJc1nnBqLU8oZb"; // 1SP
 
 import { useJupiterApiContext } from "../../contexts";
 
@@ -375,7 +375,7 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
           {!hasRoute && !loadingRoute && (
             <div className="flex flex-row justify-center">
               <span className="mr-2 text-lg font-bold">No route found</span>
-              <img className="h-[30px] w-[30px]" src={emoji} />
+              {/* <img className="h-[30px] w-[30px]" src={emoji} /> */}
             </div>
           )}
           {!loadingRoute &&
