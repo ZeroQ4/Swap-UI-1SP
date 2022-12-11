@@ -306,14 +306,14 @@ const JupiterForm: FunctionComponent<IJupiterFormProps> = (props) => {
 
   return (
     <>
-      <div className="bg-base-300 sm:w-[450px] w-[95%] rounded-[15px] px-5 pb-10 pt-5 mb-5 sm:mb-0 mt-3 sm:mt-0">
+      <div className="background-swap sm:w-[450px] w-[95%] rounded-[15px] px-5 pb-10 pt-5 mb-5 sm:mb-0 mt-3 sm:mt-0">
         <div className="relative">
           <Slippage slippage={slippage} setSlippage={setSlippage} />
           <button
             onClick={refresh}
             disabled={loadingRoute}
             type="button"
-            className="absolute top-0 bg-gray-200 btn btn-sm btn-circle right-2 bg-opacity-20 hover:bg-gray-200 hover:bg-opacity-20"
+            className="absolute top-0 bg-neutral-focus btn btn-sm btn-circle right-2 hover:bg-neutral-focus"
           >
             <RefreshIcon className="h-[20px]" />
           </button>

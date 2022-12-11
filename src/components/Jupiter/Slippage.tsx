@@ -28,7 +28,7 @@ export const Slippage = ({
     <ButtonModal
       visible={visible}
       setVisible={setVisible}
-      buttonClass="bg-gray-200 bg-opacity-20 hover:bg-gray-200 hover:bg-opacity-20 btn-sm"
+      buttonClass="bg-neutral-focus hover:bg-neutral-focus btn-sm"
       buttonText={
         <div className="flex flex-row items-center">
           <AdjustmentsIcon className="w-3 mr-2 rotate-90" />

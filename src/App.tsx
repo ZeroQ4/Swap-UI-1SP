@@ -79,7 +79,7 @@ const App = () => {
         <JupiterApiProvider>
           <div className="bg-neutral-focus">
             <TopBar setCustomRpc={setCustomRpc} />
-            <div className="flex flex-col items-center justify-center min-h-screen bg-neutral-focus">
+            <div className="flex flex-col items-center justify-center min-h-screen background-main">
               <JupiterForm />
             </div>
             <Footer />

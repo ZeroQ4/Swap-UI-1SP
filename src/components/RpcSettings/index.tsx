@@ -92,15 +92,15 @@ export const RpcSettings = ({
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
               >
-                <Listbox.Options className="absolute w-full py-1 mt-1 overflow-auto text-lg font-bold bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-lg">
+                <Listbox.Options className="background-main absolute w-full py-1 mt-1 overflow-auto text-lg font-bold bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-lg">
                   {RPCS.slice(0, 2).map((rpc, idx) => (
                     <Listbox.Option
                       key={idx}
                       className={({ active }) =>
                         `cursor-default select-none relative py-2 pl-10 pr-4 ${
                           active
-                            ? "font-bold text-black bg-[#E4E9EE]"
-                            : "text-gray-900"
+                            ? "font-bold text-white bg-neutral"
+                            : "text-gray-400"
                         }`
                       }
                       value={rpc}

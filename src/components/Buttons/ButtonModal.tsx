@@ -45,7 +45,7 @@ export const ButtonModal = ({
       {visible && (
         <div className="modal ">
           <div
-            className={clsx("modal-box relative", modalClass)}
+            className={clsx("background-swap modal-box relative", modalClass)}
             ref={clickAwayRef}
           >
             {children}
