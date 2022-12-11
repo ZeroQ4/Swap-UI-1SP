@@ -26,28 +26,24 @@ export const Warning = ({
         <h2 className="mb-2 text-xl font-bold text-white">Warning</h2>
 
         <p className="text-white">
-          The Bonfida DEX is a fully decentralised digital asset exchange. No
-          representation or warranty is made concerning any aspect of the
-          Bonfida DEX, including its suitability, quality, availability,
-          accessibility, accuracy or safety. As more fully explained in the{" "}
-          <Link href={Urls.rules}>Rules</Link> (available{" "}
-          <Link href={Urls.rules}>here</Link>) and the{" "}
-          <Link href={Urls.risks}>Risk</Link> Statement (available{" "}
-          <Link href={Urls.risks}>here</Link>), your access to and use of the
-          Bonfida DEX is entirely at your own risk and could lead to substantial
-          losses. You take full responsibility for your use of the Bonfida DEX,
-          and acknowledge that you use it on the basis of your own enquiry,
-          without solicitation or inducement by Contributors (as defined in the
-          Rules).
+        Onespace DEX is a fully decentralised digital asset exchange. 
+        No representation or warranty is made concerning any aspect 
+        of the Onespace DEX, including its suitability, quality, 
+        availability, accessibility, accuracy or safety. Your access 
+        to and use of the Onespace DEX is entirely at your own risk and 
+        could lead to substantial losses. You take full responsibility 
+        for your use of the Onespace DEX, and acknowledge that you use it 
+        on the basis of your own enquiry, without solicitation or inducement 
+        by Contributors (as defined in the <Link href={Urls.rules}>Rules</Link>).
         </p>
         <p className="mt-4 text-white">
-          The Bonfida DEX is not available to residents of Belarus, the Central
+          The Onespace DEX is not available to residents of Belarus, the Central
           African Republic, the Democratic Republic of Congo, the Democratic
           People’s Republic of Korea, the Crimea region of Ukraine, Cuba, Iran,
           Libya, Somalia, Sudan, South Sudan, Syria, the USA, Yemen, and
           Zimbabwe or any other jurisdiction in which accessing or using the
-          Bonfida DEX is prohibited (“Prohibited Jurisdictions”). In using the
-          Bonfida DEX, you confirm that you are not located in, incorporated or
+          Onespace DEX is prohibited (“Prohibited Jurisdictions”). In using the
+          Onespace DEX, you confirm that you are not located in, incorporated or
           otherwise established in, or a citizen or resident of, a Prohibited
           Jurisdiction.
         </p>

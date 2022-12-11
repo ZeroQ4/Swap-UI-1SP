@@ -15,8 +15,8 @@ const Urls = {
   oldDex: "",
   jupiter: "https://docs.jup.ag/",
   google: "https://google.com",
-  rules: "https://rules.bonfida.org/",
-  risks: "https://risks.bonfida.org/",
+  rules: "https://docs.1space.me/",
+  risks: "https://docs.1space.me/",
 };
 
 export default Urls;
