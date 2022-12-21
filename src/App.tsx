@@ -15,6 +15,7 @@ import {
   TorusWalletAdapter,
   MathWalletAdapter,
   SlopeWalletAdapter,
+  LedgerWalletAdapter,
 } from "@solana/wallet-adapter-wallets";
 import { ToastContainer, toast } from "react-toastify";
 import Footer from "./components/navigation-frame/Footer";
@@ -53,6 +54,7 @@ const App = () => {
       new MathWalletAdapter(),
       new Coin98WalletAdapter(),
       new CloverWalletAdapter(),
+      new LedgerWalletAdapter(),
       new BloctoWalletAdapter({ network }),
     ],
     [network]
