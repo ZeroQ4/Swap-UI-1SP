@@ -3,6 +3,7 @@ import {
   ConnectionProvider,
   WalletProvider,
 } from "@solana/wallet-adapter-react";
+import {ExodusWalletAdapter} from "@solana/wallet-adapter-exodus";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 import {
   BloctoWalletAdapter,
@@ -34,6 +35,7 @@ import "react-toastify/dist/ReactToastify.css";
 // Override @solana/wallet-adapter-react-ui/styles.css
 import "./wallet.css";
 
+
 window.Buffer = Buffer;
 
 const App = () => {
@@ -54,6 +56,7 @@ const App = () => {
       new MathWalletAdapter(),
       new Coin98WalletAdapter(),
       new CloverWalletAdapter(),
+      new ExodusWalletAdapter(),
       new LedgerWalletAdapter(),
       new BloctoWalletAdapter({ network }),
     ],
